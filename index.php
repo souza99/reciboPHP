@@ -4,6 +4,11 @@
 </head>
 
 <body>
+    <p>
+        <?php
+        echo "site para os pedar(recomendado) HOSTINGER";
+        ?>
+    </p>
     <h1>
         <?php
         $valor1 = 10;
