@@ -25,9 +25,15 @@
                 </div>
             </div>
 
+            <div class="row" style="display: flex; gap: 24px;">
+                <div class="col">
+                    CPF/CNPJ: <input type="string" name="cpf_cnpj"><br><br>
+                </div>
+                <div class="col">
+                    Referente à: <input type="string" name="referente"><br><br>
+                </div>
+            </div>
 
-            CPF/CNPJ: <input type="string" name="cpf_cnpj"><br><br>
-            Referente à: <input type="string" name="referente"><br><br>
             Cidade: <input type="string" name="cidade"><br><br><br>
             Data: <input type="date" name="data"><br><br><br>
             Nome do Emissor: <input type="string" name="emissor"><br><br>
