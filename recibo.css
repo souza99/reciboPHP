@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.box {
+    margin-top: 5%;
+    width: 60%;
+    height: 80%;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.body {
+    margin: 0px;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #aebbd0;
+    height: 25px;
+    border-width: 1px;
+}
+
+.itens {
+    display: flex;
+    margin-left: 12px;
+}
+
+.buttons {
+    background-color: #3273dc;
+    color: #ffffff;
+    border-radius: 5px;
+}
