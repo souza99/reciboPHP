@@ -103,22 +103,22 @@
                 
                     <div class="col" style="width: 100%">
                         <h3>N° do cheque: </h3>
-                        <input type="string" />
+                        <input type="string" name="n_cheque"/>
                     </div>
 
                     <div class="col" style="width: 100%">
                         <h3>Banco: </h3>
-                        <input type="string" />
+                        <input type="string" name="banco_cheque"/>
                     </div>
 
                     <div class="col" style="width: 100%">
                         <h3>Agência: </h3>
-                        <input type="string" />
+                        <input type="string" name="agencia_cheque"/>
                     </div>
 
                     <div class="col" style="width: 100%">
                         <h3>Bom para...: </h3>
-                        <input type="string" />
+                        <input type="string" name="bom_para_cheque"/>
                         <p>Opcional</p>
                     </div>
                     
