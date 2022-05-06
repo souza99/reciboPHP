@@ -27,7 +27,7 @@
     $n_do_documento_tranferencia = $_POST["n_do_documento_tranferencia"];
 
 
-    if($quem_recebeu_pix == null and $instituicao_banco_pix==null and $chave_pix==null and $n_cheque==null and $banco_cheque==null and $agencia_cheque==null and $bom_para_cheque==null){
+    if($quem_recebeu_pix == null and $instituicao_banco_pix==null and $chave_pix==null and $n_cheque==null and $banco_cheque==null and $agencia_cheque==null and $bom_para_cheque==null and $conta_transferencia==null and $agencia_tranferencia==null and $data_trandferencia==null and $banco_transferencia==null and $favorecido_transferencia==null and $n_do_documento_tranferencia==null){
         echo "________________________________________________________________________________________________________________________________________<br><br><br>";
         echo "Recebi(emos) de " .$nome_pagador ." cpf/cnpj nº ".$cpf_cnpj.", a importância de ".$valor." referente à ".$referente."<br>"."Nome do emisor: ".$nome_emissor."<br>"."Telefone: ".$telefone."<br><br><br>";
         echo "_________________________________________________________________________________________________________________________________________";
@@ -54,9 +54,12 @@
 
         Para maior clareza firmo(amos) o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável quitação, pelo valor recebido.<br>
         
-        O Pagamento foi efetuado através do depósito/Transferência bancário realizado em ".$data_trandferencia.", na conta: ".$conta_transferencia.", agência: ".$agencia_tranferencia.", banco : ".$conta_transferencia.". Favorecido: ".$favorecido_transferencia.".<br>
+        O Pagamento foi efetuado através do depósito/Transferência bancário realizado em ".$data_trandferencia.", na conta: ".$conta_transferencia.", agência: ".$agencia_tranferencia.", banco : ".$banco_transferencia.". Favorecido: ".$favorecido_transferencia.".<br>
         
-        Número do documento: ".$n_do_documento_tranferencia;
+        Número do documento: ".$n_do_documento_tranferencia."<br>";
+        echo "________________________________________________________________________________________________________________________________________<br><br><br>";
+    }else{
+        echo "PREENCHA O FORMULÁRIO DE MANEIRA CORRETA";
     }
 ?>
 
