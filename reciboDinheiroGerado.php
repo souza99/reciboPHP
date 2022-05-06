@@ -9,10 +9,21 @@
     $quem_recebeu_pix =$_POST["quem_recebeu_pix"];
     $instituicao_banco_pix = $_POST["instituicao_banco_pix"];
     $chave_pix = $_POST["chave_pix"];
+
+    #AQUI FICA AS COISAS DO CHEQUE
     $n_cheque = $_POST["n_cheque"];
     $banco_cheque = $_POST["banco_cheque"];
     $agencia_cheque = $_POST["agencia_cheque"];
     $bom_para_cheque = $_POST["bom_para_cheque"];
+
+    #AQUI FICA AS COISAS DA TRANFERENCIA
+    $conta_transferencia = $_POST["conta_transferencia"];
+    $agencia_tranferencia = $_POST["agencia_tranferencia"];
+    $data_trandferencia = $_POST["data_trandferencia"];
+    $banco_transferencia = $_POST["banco_transferencia"];
+    $favorecido_transferencia = $_POST["favorecido_transferencia"];
+    $n_do_documento_tranferencia = $_POST["n_do_documento_tranferencia"];
+
 
     if($quem_recebeu_pix == null and $instituicao_banco_pix==null and $chave_pix==null and $n_cheque==null and $banco_cheque==null and $agencia_cheque==null and $bom_para_cheque==null){
         echo "________________________________________________________________________________________________________________________________________<br><br><br>";

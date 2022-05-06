@@ -132,17 +132,17 @@
 
                         <div class="col" style="width: 100%;">
                             <h3>Conta: </h3>
-                            <input type="string" />
+                            <input type="string" name="conta_transferencia"/>
                         </div>
     
                         <div class="col" style="width: 100%;">
                             <h3>Agência: </h3>
-                            <input type="string" />
+                            <input type="string" name="agencia_tranferencia"/>
                         </div>
     
                         <div class="col" style="width: 100%;">
                             <h3>Data: </h3>
-                            <input type="string" />
+                            <input type="string" name="data_trandferencia"/>
                         </div>
 
                     </div>
@@ -151,17 +151,17 @@
 
                         <div class="col" style="width: 100%;">
                             <h3>Banco: </h3>
-                            <input type="string" />
+                            <input type="string" name="banco_transferencia"/>
                         </div>
 
                         <div class="col" style="width: 100%;">
                             <h3>Favorecido: </h3>
-                            <input type="string" />
+                            <input type="string" name="favorecido_transferencia"/>
                         </div>
 
                         <div class="col" style="width: 100%;">
                             <h3>Nº do documento: </h3>
-                            <input type="string" />
+                            <input type="string" name="n_do_documento_tranferencia"/>
                         </div>
 
                     </div>
