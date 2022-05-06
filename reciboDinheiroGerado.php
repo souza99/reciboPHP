@@ -6,6 +6,8 @@
     $nome_emissor = $_POST["emissor"];
     $telefone = $_POST["telefone"];
     $cpf_cnpj_emissor = $_POST["cpf_cnpj_emissor"];
+
+    #AQUI FICA AS COISAS DO PIX
     $quem_recebeu_pix =$_POST["quem_recebeu_pix"];
     $instituicao_banco_pix = $_POST["instituicao_banco_pix"];
     $chave_pix = $_POST["chave_pix"];
@@ -46,6 +48,15 @@
         Cheque bom para: ".$bom_para_cheque."<br>";
 
         echo "________________________________________________________________________________________________________________________________________<br><br><br>";
+    }else if($conta_transferencia!=null and $agencia_tranferencia!=null and $data_trandferencia!=null and $banco_transferencia!=null and $favorecido_transferencia!=null and $n_do_documento_tranferencia!=null){
+        echo "________________________________________________________________________________________________________________________________________<br><br><br>";
+        echo "Recebi(emos) de ".$nome_pagador." - CPF/CNPJ nº ".$cpf_cnpj.", a importância de ".$valor." reais referente à ".$referente.".<br>
+
+        Para maior clareza firmo(amos) o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável quitação, pelo valor recebido.<br>
+        
+        O Pagamento foi efetuado através do depósito/Transferência bancário realizado em ".$data_trandferencia.", na conta: ".$conta_transferencia.", agência: ".$agencia_tranferencia.", banco : ".$conta_transferencia.". Favorecido: ".$favorecido_transferencia.".<br>
+        
+        Número do documento: ".$n_do_documento_tranferencia;
     }
 ?>
 
