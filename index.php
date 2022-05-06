@@ -40,6 +40,8 @@
                 <div class="col">
                     Data: <input type="date" name="data"><br><br><br>
                 </div>
+
+                
             </div>
 
             <div class="row" style="display: flex; gap: 24px;">
