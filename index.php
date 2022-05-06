@@ -46,8 +46,14 @@
                 <div class="col">
                     Nome do Emissor: <input type="string" name="emissor"><br><br>
                 </div>
+            </div>
+
+            <div class="row" style="display: flex; gap: 24px;">
                 <div class="col">
                     Telefone: <input type="string" name="telefone"><br><br>
+                </div>
+                <div class="col">
+                    CPF/CNPF: <input type="string" name="cpf_cnpj_emissor"><br><br>
                 </div>
             </div>
 
@@ -154,7 +160,7 @@
                         </div>
 
                         <div class="col" style="width: 100%;">
-                            <h3>Nº do documento:: </h3>
+                            <h3>Nº do documento: </h3>
                             <input type="string" />
                         </div>
 
