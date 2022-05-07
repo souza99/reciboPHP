@@ -25,8 +25,7 @@
     $banco_transferencia = $_POST["banco_transferencia"];
     $favorecido_transferencia = $_POST["favorecido_transferencia"];
     $n_do_documento_tranferencia = $_POST["n_do_documento_tranferencia"];
-
-
+    
     if($quem_recebeu_pix == null and $instituicao_banco_pix==null and $chave_pix==null and $n_cheque==null and $banco_cheque==null and $agencia_cheque==null and $bom_para_cheque==null and $conta_transferencia==null and $agencia_tranferencia==null and $data_trandferencia==null and $banco_transferencia==null and $favorecido_transferencia==null and $n_do_documento_tranferencia==null){
         echo "________________________________________________________________________________________________________________________________________<br><br><br>";
         echo "Recebi(emos) de " .$nome_pagador ." cpf/cnpj nº ".$cpf_cnpj.", a importância de ".$valor." referente à ".$referente."<br>"."Nome do emisor: ".$nome_emissor."<br>"."Telefone: ".$telefone."<br><br><br>";
@@ -62,5 +61,3 @@
         echo "PREENCHA O FORMULÁRIO DE MANEIRA CORRETA";
     }
 ?>
-
-

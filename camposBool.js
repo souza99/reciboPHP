@@ -28,6 +28,9 @@ pix.addEventListener("click", function () {
     chequeGerar = false;
     dinheiroGerar = false;
     transferenciaGerar = false;
+
+    var tamanhaTela = document.getElementsByClassName(".box");
+    tamanhaTela.style.height = "1080px";
 });
 
 cheque.addEventListener("click", function () {
@@ -38,6 +41,11 @@ cheque.addEventListener("click", function () {
     chequeGerar = true;
     dinheiroGerar = false;
     transferenciaGerar = false;
+
+    var tamanhaTela = document.getElementsByClassName(".box");
+    tamanhaTela.style.height = "1080px";
+
+
 });
 
 transferencia.addEventListener("click", function () {
@@ -48,6 +56,9 @@ transferencia.addEventListener("click", function () {
     chequeGerar = false;
     dinheiroGerar = false;
     transferenciaGerar = true;
+
+    var tamanhaTela = document.getElementsByClassName(".box");
+    tamanhaTela.style.height = "1080px";
 });
 
 dinheiro.addEventListener("click", function () {
@@ -58,6 +69,9 @@ dinheiro.addEventListener("click", function () {
     chequeGerar = false;
     dinheiroGerar = true;
     transferenciaGerar = false;
+
+    var tamanhaTela = document.getElementsByClassName(".box");
+    tamanhaTela.style.height = "1080px";
 });
 
 cartao.addEventListener("click", function () {
@@ -68,6 +82,9 @@ cartao.addEventListener("click", function () {
     chequeGerar = false;
     dinheiroGerar = false;
     transferenciaGerar = false;
+
+    var tamanhaTela = document.getElementsByClassName(".box");
+    tamanhaTela.style.height = "1080px";
 })
 
 gerar.addEventListener("click", function () {
